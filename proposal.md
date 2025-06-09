@@ -11,7 +11,7 @@
 
 ## Tema
 ### Descripción
-*Aplicación web para crear y gestionar personajes de Dungeons & Dragons. Los usuarios pueden crear, editar y visualizar sus personajes, incluyendo raza, clase, habilidades, objetos y trasfondo.*
+*Aplicación web para crear y administrar personajes de Dungeons & Dragons. Permite a los usuarios definir raza, clase, estadísticas, trasfondo y equipo de forma clara e intuitiva.*
 
 ### Modelo
 [Mermaid](https://www.mermaidchart.com/app/projects/1807a2ba-b39c-45ee-9920-2f86883f2b7b/diagrams/f333d543-72fd-4054-bc65-bf3c643f86e4/version/v0.1/edit)
@@ -22,7 +22,6 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
@@ -36,7 +35,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1.CRUD Raza<br>2. CRUD Clase<br>3. CRUD Trasfondo<br>4. CRUD Hechizo<br>5. CRUD Objeto Mágico<br>6. CRUD Equipamiento<br>7. CRUD Usuario (jugador)|
+|CRUD |1. CRUD Raza<br>2. CRUD Clase<br>3. CRUD Trasfondo<br>4. CRUD Hechizo<br>5. CRUD Objeto Mágico<br>6. CRUD Equipamiento<br>7. CRUD Usuario (jugador)|
 |CUU/Epic|1. --<br>2. Editar personaje existente<br>3. Exportar hoja de personaje a PDF con su ficha completa|
 
 
