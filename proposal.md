@@ -27,17 +27,17 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Raza<br>2. CRUD Clase<br>3. CRUD Trasfondo|
+|CRUD dependiente|1.CRUD Personaje {depende de} Raza, Clase y Trasfondo<br>2.  CRUD Hechizos {depende de} Clase|
+|Listado<br>+<br>detalle| 1. Listado de personajes filtrado por clase, muestra nombre, raza y clase => detalle muestra atributos completos del personaje<br> 2.  Listado de hechizos filtrado por clase, muestra nombre, nivel y descripción breve => detalle con descripción completa y condiciones de uso|
+|CUU/Epic|1. --<br>2. Editar hoja de personaje y exportarla como PDF|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1.CRUD Raza<br>2. CRUD Clase<br>3. CRUD Trasfondo<br>4. CRUD Hechizo<br>5. CRUD Objeto Mágico<br>6. CRUD Equipamiento<br>7. CRUD Usuario (jugador)|
+|CUU/Epic|1. --<br>2. Editar personaje existente<br>3. Exportar hoja de personaje a PDF con su ficha completa|
 
 
 ### Alcance Adicional Voluntario
@@ -46,7 +46,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Listado de personajes de un usuario, filtrado por nivel, raza o clase <br>2. Listado de objetos mágicos por tipo o rareza|
+|CUU/Epic|1.Subida de avatar del personaje<br>2. Visualización de estadísticas de personajes creados (cantidad por clase, raza, etc.)|
+|Otros|1. Exportación a formato PDF o impresión de la hoja de personaje|
 
