@@ -2,19 +2,19 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 45976 - Bustos, Martin Emanuel
+* 45810 - Kanjer, Gaston Alberto
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [fullstack app]([http://hyperlinkToGihubOrGitlab](https://github.com/GastonKanjer99/tp-dsw))
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+*Aplicación web para crear y gestionar personajes de Dungeons & Dragons. Los usuarios pueden crear, editar y visualizar sus personajes, incluyendo raza, clase, habilidades, objetos y trasfondo.*
 
 ### Modelo
-![imagen del modelo]()
+[Mermaid](https://www.mermaidchart.com/app/projects/1807a2ba-b39c-45ee-9920-2f86883f2b7b/diagrams/f333d543-72fd-4054-bc65-bf3c643f86e4/version/v0.1/edit)
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
