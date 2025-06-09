@@ -6,7 +6,7 @@
 * 45810 - Kanjer, Gaston Alberto
 
 ### Repositorios
-* [fullstack app]([http://hyperlinkToGihubOrGitlab](https://github.com/GastonKanjer99/tp-dsw))
+* [fullstack app](https://github.com/GastonKanjer99/tp-dsw)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
