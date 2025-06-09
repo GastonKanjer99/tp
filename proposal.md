@@ -27,7 +27,7 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Raza<br>2. CRUD Clase<br>3. CRUD Trasfondo|
-|CRUD dependiente|1.CRUD Personaje {depende de} Raza, Clase y Trasfondo<br>2.  CRUD Hechizos {depende de} Clase|
+|CRUD dependiente|1. CRUD Personaje {depende de} Raza, Clase y Trasfondo<br>2.  CRUD Hechizos {depende de} Clase|
 |Listado<br>+<br>detalle| 1. Listado de personajes filtrado por clase, muestra nombre, raza y clase => detalle muestra atributos completos del personaje<br> 2.  Listado de hechizos filtrado por clase, muestra nombre, nivel y descripción breve => detalle con descripción completa y condiciones de uso|
 |CUU/Epic|1. --<br>2. Editar hoja de personaje y exportarla como PDF|
 
